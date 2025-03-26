@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    padding: 8px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Mobile design section */
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #CF9421;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+  }
+
+/* Tablet design section */
+@media only screen and (min-width: 600px) {
+    body {
+      background-color: #DAD5C6;
+    }
+}
